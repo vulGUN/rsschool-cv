@@ -9,9 +9,9 @@
 
 ## About me:
 
-> I am considering a career change towards front-end development.
-> Completed online courses in HTML / CSS, currently taking a course in JavaScript + React and looking for an opportunity to apply knowledge in practice.
-> Ready to take a test task to demonstrate the level of skills.
+I am considering a career change towards front-end development.
+Completed online courses in HTML / CSS, currently taking a course in JavaScript + React and looking for an opportunity to apply knowledge in practice.
+Ready to take a test task to demonstrate the level of skills.
 
 ## Skils:
 
