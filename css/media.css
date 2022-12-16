@@ -1,0 +1,488 @@
+@media (max-width: 1540px) {
+  .container {
+    width: 940px;
+  }
+
+  body {
+    font-size: 16px;
+  }
+
+  .menu {
+    margin: 0 0 0 25px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .nav-menu {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    height: 60px;
+  }
+
+  .my-name {
+    margin-top: 100px;
+    margin-bottom: 40px;
+  }
+
+  .my-name h1 {
+    width: 600px;
+    font-size: 50px;
+    line-height: 54px;
+    font-weight: 100;
+    letter-spacing: 1px;
+  }
+
+  .projects {
+    margin-top: 150px;
+  }
+
+  .card img {
+    border-radius: 20px;
+    max-width: 460px;
+  }
+
+  .card-text {
+    padding: 18px 0 18px 18px;
+  }
+
+  .card-title {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .card-descr {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .about-me {
+    margin-top: 150px;
+  }
+
+  .about-me-title {
+    font-size: 22px;
+  }
+
+  .about-me-descr {
+    max-width: 500px;
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  .photo img {
+    margin-top: 150px;
+  }
+
+  .education {
+    margin-top: 150px;
+  }
+
+  .education-title {
+    font-size: 22px;
+    margin: 0;
+  }
+
+  .education-descr {
+    max-width: 500px;
+  }
+
+  .education-item-name {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+  }
+
+  .education-item-specialization {
+    margin-top: 5px;
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .education-item-date {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .hr-line {
+    margin: 30px 0;
+  }
+
+  .code {
+    margin-top: 150px;
+  }
+
+  .code-title {
+    font-size: 22px;
+  }
+
+  .pre {
+    margin-top: 50px;
+    background-color: rgb(240, 240, 240);
+    border-radius: 20px;
+    padding: 10px 30px;
+  }
+
+  .skills {
+    margin-top: 150px;
+  }
+
+  .skills-wrap {
+    margin-top: 50px;
+  }
+
+  .skills-right-col {
+    width: 500px;
+  }
+
+  .skills-title {
+    font-size: 22px;
+  }
+
+  .skill-item {
+    margin-top: 35px;
+  }
+
+  .skill-item-title {
+    font-size: 16px;
+  }
+
+  .skill-item-circles-wrap {
+    padding-left: 0;
+  }
+
+  .skill-item-circle {
+    margin-left: 7px;
+    width: 16px;
+    height: 16px;
+  }
+
+  .email-block {
+    margin-top: 150px;
+    padding: 70px 0;
+  }
+
+  .email-block-text {
+    width: 550px;
+    font-size: 38px;
+    line-height: 50px;
+  }
+
+  .email-block a {
+    margin-top: 44px;
+    width: 150px;
+    font-size: 16px;
+    line-height: 50px;
+  }
+
+  .footer .hr-line {
+    margin-top: 150px;
+  }
+
+  .footer-year {
+    max-width: 134px;
+  }
+
+  .footer .social a {
+    margin: 0 15px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .footer-wrap img {
+    height: 40px;
+  }
+}
+
+@media (max-width: 1201px) {
+  .container {
+    width: 740px;
+  }
+
+  .menu {
+    margin: 0;
+  }
+
+  .nav-menu {
+    justify-content: space-around;
+  }
+
+  .my-name {
+    margin-top: 100px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .my-name h1 {
+    width: 100%;
+  }
+
+  .card img {
+    max-width: 360px;
+  }
+
+  .about-me {
+    margin-top: 100px;
+  }
+
+  .about-me-descr {
+    max-width: 400px;
+  }
+
+  .photo img {
+    margin-top: 100px;
+  }
+
+  .education {
+    margin-top: 100px;
+  }
+
+  .education-descr {
+    max-width: 400px;
+  }
+
+  .code {
+    margin-top: 100px;
+  }
+
+  .skills {
+    margin-top: 100px;
+  }
+
+  .skills-right-col {
+    max-width: 215px;
+  }
+
+  .footer .hr-line {
+    margin-top: 100px;
+  }
+
+  .footer-year {
+    max-width: 115px;
+  }
+}
+
+@media (max-width: 901px) {
+  .container {
+    width: 640px;
+  }
+
+  .menu a::after {
+    content: none;
+  }
+
+  .card img {
+    max-width: 310px;
+  }
+
+  .card:hover {
+    box-shadow: none;
+  }
+
+  .email-block-text {
+    width: 450px;
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .footer .social a::after {
+    content: none;
+  }
+}
+
+@media (max-width: 741px) {
+  .container {
+    width: 540px;
+  }
+
+  .my-name {
+    margin-top: 70px;
+    margin-bottom: 0;
+  }
+
+  .my-name h1 {
+    font-size: 34px;
+    line-height: 44px;
+  }
+
+  .projects {
+    margin-top: 100px;
+  }
+
+  .card img {
+    max-width: 260px;
+  }
+
+  .about-me {
+    margin-top: 100px;
+  }
+
+  .photo img {
+    margin-top: 100px;
+  }
+
+  .education {
+    margin-top: 100px;
+  }
+
+  .code {
+    margin-top: 100px;
+  }
+
+  .skills {
+    margin-top: 100px;
+  }
+
+  .email-block-text {
+    width: 450px;
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+
+@media (max-width: 566px) {
+  .container {
+    width: 340px;
+  }
+
+  .menu {
+    font-size: 12px;
+  }
+
+  .nav-menu {
+    justify-content: space-between;
+  }
+
+  .my-name {
+    margin-top: 50px;
+  }
+
+  .my-name h1 {
+    font-size: 22px;
+    line-height: 36px;
+  }
+
+  .projects {
+    margin-top: 70px;
+  }
+
+  .portfolio-cards {
+    position: relative;
+    display: block;
+    margin-top: 30px;
+  }
+
+  .portfolio-cards-left {
+    margin-right: 0;
+  }
+
+  .portfolio-cards-right {
+    margin-left: 0;
+  }
+
+  .card img {
+    max-width: 100%;
+  }
+  
+  .card-descr {
+    margin-top: 0;
+  }
+
+  .about-me {
+    display: block;
+    margin-top: 70px;
+  }
+
+  .about-me-descr {
+    margin-top: 20px;
+    max-width: 100%;
+  }
+
+  .photo img {
+    margin-top: 70px;
+  }
+
+  .education {
+    display: block;
+    margin-top: 70px;
+  }
+
+  .education-descr {
+    margin-top: 30px;
+    max-width: 100%;
+  }
+
+  .code {
+    margin-top: 70px;
+  }
+
+  .pre {
+    padding: 10px;
+    margin-top: 30px;
+    font-size: 11px;
+  }
+
+  .skills {
+    margin-top: 70px;
+  }
+
+  .skills-wrap {
+    display: block;
+    margin-top: 50px;
+  }
+
+  .skill-item {
+    max-width: 250px;
+    margin-top: 25px;
+    justify-content: space-between;
+  }
+
+  .skill-item-title {
+    width: 120px;
+  }
+
+  .skills-right-col {
+    max-width: 250px;
+  }
+
+  .email-block {
+    padding: 40px 20px;
+    margin-top: 70px;
+  }
+
+  .email-block-text {
+    width: 100%;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .email-block a {
+    margin-top: 30px;
+    width: 140px;
+    font-size: 14px;
+    line-height: 45px;
+  }
+
+  .footer .hr-line {
+    margin-top: 70px;
+  }
+
+  .footer-year {
+    width: 50px;
+    font-size: 14px;
+  }
+
+  .footer .social a {
+    margin: 0 7px;
+  }
+
+  .footer-wrap img {
+    height: 25px;
+  }
+
+  .footer .social a {
+    margin: 0 5px;
+    font-size: 12px;
+    line-height: 28px;
+  }
+}
