@@ -275,6 +275,10 @@
     max-width: 310px;
   }
 
+  .card:hover {
+    box-shadow: none;
+  }
+
   .email-block-text {
     width: 450px;
     font-size: 32px;
