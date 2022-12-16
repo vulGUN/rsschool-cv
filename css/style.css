@@ -179,6 +179,7 @@ body {
 }
 
 .about-me-title {
+  margin: 0;
   font-size: 30px;
   font-weight: 100;
   line-height: 42px;
