@@ -1,3 +1,408 @@
+@font-face {
+  font-family: "Inter";
+  src: url("assets/fonts/Inter-Thin.ttf");
+  font-weight: 100;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("assets/fonts/Inter-Regular.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("assets/fonts/Inter-Bold.ttf");
+  font-weight: 700;
+}
+
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+}
+
+.container {
+  width: 1248px;
+  display: block;
+  margin: 0 auto;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding: 0;
+  height: 76px;
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0 0 0 40px;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.menu a {
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+  color: #757575;
+}
+
+.menu a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  display: block;
+  background: none repeat scroll 0 0 transparent;
+  height: 1px;
+  width: 0;
+  background: #757575;
+  transition: width 0.5s ease 0s, left 0.5s ease 0s;
+}
+
+.menu a:hover::after {
+  width: 100%;
+  left: 0;
+}
+
+.my-name {
+  margin-top: 128px;
+  margin-bottom: 54px;
+}
+.my-name h1 {
+  width: 650px;
+  font-size: 54px;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+
+.my-name span {
+  color: #757575;
+}
+
+.projects {
+  margin-top: 128px;
+}
+
+.projects h2 {
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.projects span {
+  color: #757575;
+}
+
+.portfolio-cards {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-top: 30px;
+}
+
+.portfolio-cards-left {
+  margin-right: 12px;
+}
+
+.portfolio-cards-right {
+  margin-left: 12px;
+}
+
+.card {
+  margin-bottom: 24px;
+  background-color: #f7f7f7;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+
+.card:hover {
+  box-shadow: 0 0 0 1px rgb(135, 135, 135);
+}
+
+.card a {
+  text-decoration: none;
+}
+
+.card img {
+  border-radius: 20px;
+}
+
+.card-text {
+  padding: 24px 0 24px 24px;
+}
+
+.card-title {
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 1px;
+  color: #000;
+}
+
+.card-descr {
+  margin-top: 5px;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 1px;
+  color: #757575;
+}
+
+.card-max {
+  max-width: 612px;
+  max-height: 716px;
+}
+
+.card-mini {
+  max-width: 612px;
+  max-height: 538px;
+}
+
+.about-me {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-top: 200px;
+}
+
+.about-me-title {
+  font-size: 30px;
+  font-weight: 100;
+  line-height: 42px;
+  letter-spacing: 1px;
+}
+
+.about-me-descr {
+  max-width: 590px;
+  font-size: 24px;
+  font-weight: 100;
+  line-height: 40px;
+  letter-spacing: 0.3px;
+  color: #757575;
+}
+
+.photo img {
+  margin-top: 200px;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.education {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-top: 200px;
+}
+
+.education-title {
+  font-size: 30px;
+  font-weight: 100;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+.education-descr {
+  max-width: 565px;
+}
+
+.education-item-name {
+  font-weight: 100;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 1px;
+}
+
+.education-item-specialization {
+  margin-top: 5px;
+  font-weight: 100;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 1px;
+  color: #757575;
+}
+
+.education-item-date {
+  margin-top: 10px;
+  font-weight: 100;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 1px;
+  color: #757575;
+}
+
+.hr-line {
+  display: block;
+  margin: 50px 0;
+  width: 100%;
+  height: 1px;
+  background-color: #f0f0f0;
+}
+
+/* .education-item .hr-line:last-child {
+  display: none;
+} */
+
+.skills {
+  margin-top: 200px;
+}
+
+.skills-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.skills-right-col {
+  width: 565px;
+}
+
+.skills-title {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+
+.skill-item {
+  display: flex;
+  justify-content: left;
+  margin-top: 50px;
+}
+
+.skill-item-title {
+  width: 100px;
+}
+
+.skill-item-circles-wrap {
+  display: flex;
+  padding-left: 20px;
+}
+
+.skill-item-circle {
+  margin-left: 7px;
+  width: 18px;
+  height: 18px;
+  border-radius: 100%;
+  background-color: #ccc;
+}
+
+.circle-black {
+  background-color: #2a2a2a;
+}
+
+.code {
+  margin-top: 200px;
+}
+
+.code-title {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+
+.pre {
+  margin-top: 100px;
+  background-color: rgb(240, 240, 240);
+  border-radius: 20px;
+  padding: 20px 40px;
+}
+
+.email-block {
+  margin-top: 200px;
+  padding: 100px 0;
+  width: 100%;
+  background-color: #ffebd8;
+  border-radius: 20px;
+}
+
+.email-block-text {
+  margin: 0 auto;
+  width: 640px;
+  font-weight: 400;
+  font-size: 57px;
+  line-height: 74px;
+  letter-spacing: 2.56px;
+  text-align: center;
+}
+
+.email-block a {
+  display: block;
+  margin: 0 auto;
+  margin-top: 64px;
+  width: 200px;
+  border-radius: 20px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 100;
+  font-size: 18px;
+  text-transform: uppercase;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 1.2px;
+  color: #fff;
+  background-color: #000;
+}
+
+.footer {
+  margin-bottom: 50px;
+}
+
+.footer .hr-line {
+  margin-top: 200px;
+}
+
+.footer-year {
+  width: 134px;
+}
+
+.footer .social a {
+  margin: 0 20px;
+  text-decoration: none;
+  line-height: 28px;
+  display: inline-block;
+  position: relative;
+  color: #757575;
+}
+
+.footer .social a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  display: block;
+  background: none repeat scroll 0 0 transparent;
+  height: 1px;
+  width: 0;
+  background: #757575;
+  transition: width 0.5s ease 0s, left 0.5s ease 0s;
+}
+
+.footer .social a:hover::after {
+  width: 100%;
+  left: 0;
+}
+
+.footer-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-wrap img {
+  height: 50px;
 }
