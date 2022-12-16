@@ -342,8 +342,11 @@
   }
 
   .menu {
-    margin: 0 0 0 5px;
     font-size: 12px;
+  }
+
+  .nav-menu {
+    justify-content: space-between;
   }
 
   .my-name {
@@ -352,7 +355,7 @@
 
   .my-name h1 {
     font-size: 22px;
-    line-height: 32px;
+    line-height: 36px;
   }
 
   .projects {
@@ -375,6 +378,10 @@
 
   .card img {
     max-width: 100%;
+  }
+  
+  .card-descr {
+    margin-top: 0;
   }
 
   .about-me {
