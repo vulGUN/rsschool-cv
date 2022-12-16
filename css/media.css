@@ -275,6 +275,10 @@
     max-width: 310px;
   }
 
+  .card:hover {
+    box-shadow: none;
+  }
+
   .email-block-text {
     width: 450px;
     font-size: 32px;
@@ -342,8 +346,11 @@
   }
 
   .menu {
-    margin: 0 0 0 5px;
     font-size: 12px;
+  }
+
+  .nav-menu {
+    justify-content: space-between;
   }
 
   .my-name {
@@ -352,7 +359,7 @@
 
   .my-name h1 {
     font-size: 22px;
-    line-height: 32px;
+    line-height: 36px;
   }
 
   .projects {
@@ -375,6 +382,10 @@
 
   .card img {
     max-width: 100%;
+  }
+  
+  .card-descr {
+    margin-top: 0;
   }
 
   .about-me {
@@ -408,7 +419,7 @@
   .pre {
     padding: 10px;
     margin-top: 30px;
-    font-size: 12px;
+    font-size: 11px;
   }
 
   .skills {
@@ -435,7 +446,7 @@
   }
 
   .email-block {
-    padding: 20px;
+    padding: 40px 20px;
     margin-top: 70px;
   }
 
